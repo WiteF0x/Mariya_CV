@@ -1,0 +1,112 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  transition: all ease 0.2s;
+}
+
+p:hover {
+  font-size: 24px;
+  opacity: 0.5;
+}
+
+li {
+  margin-left: 5%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  font-size: 17px;
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+}
+
+.cv {
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.rightBorder {
+  border-width: 0px;
+  border-right-width: 1px;
+  border-color: black;
+  border-style: dashed;
+}
+
+.title {
+  display: flex;
+  flex: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.topProfile {
+  display: flex;
+  flex: auto;
+  padding-left: 10%;
+  padding-top: 5%;
+}
+
+.avatar {
+  display: block;
+  width: 120px;
+  height: 120px;
+  border-radius: 15px;
+  transition: all ease 0.5s;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.avatar:hover {
+  transform: rotateZ(360deg);
+  width: 165px;
+  height: 165px;
+}
+
+.name {
+  margin-left: 15px;
+}
+
+.myInfoColumn {
+  flex-direction: column;
+}
+
+.bioContainer {
+  margin-left: 35px;
+  margin-top: 15px;
+}
+
+.content {
+  padding-left: 12%;
+  padding-top: 5%;
+}
+
+.point {
+  font-size: 26px;
+  font-weight: 600;
+  color: #002db6;
+  letter-spacing: 2px;
+  text-decoration: underline;
+  transition: all ease 0.5s;
+}
+
+.point:hover {
+  font-size: 32px;
+  opacity: 0.5;
+  letter-spacing: 4px;
+  color: red;
+}
